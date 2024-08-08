@@ -5,3 +5,6 @@ sphinx>=3.5.4,<6
 sphinx-autobuild
 sphinx_book_theme
 watchdog<1.0.0; python_version<'3.6'
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
